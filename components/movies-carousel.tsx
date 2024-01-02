@@ -24,7 +24,7 @@ function MoviesCarousel({ title, movies, isVertical }: MoviesCarouselProps) {
                 key={movie.id}
                 className={cn(
                   isVertical &&
-                    "flex flex-col spacex5 mb-5 items-center lg:flex-row space-x-5"
+                    "flex flex-col space-y-5 mb-5 items-center lg:flex-row space-x-5"
                 )}
               >
                 <MovieCard movie={movie} />
