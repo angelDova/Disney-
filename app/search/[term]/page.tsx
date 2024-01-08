@@ -24,7 +24,7 @@ async function SearchPage({ params: { term } }: Props) {
         {/* AI Suggestion */}
 
         <MoviesCarousel title="Movies" movies={movies} isVertical />
-        <MoviesCarousel title="You may also like..." movies={popularMovies} />
+        <MoviesCarousel title="You may also like" movies={popularMovies} />
       </div>
     </div>
   );
